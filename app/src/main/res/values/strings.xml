@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aula-Text</string>
+    <string name="sobrenome_vazio">Sobrenome não pode ser vazio!</string>
+    <string name="nome_vazio">Nome não pode ser vazio!</string>
 </resources>
