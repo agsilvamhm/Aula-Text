@@ -43,12 +43,12 @@ public class MainActivity extends AppCompatActivity {
         String nome = editNome.getText().toString();
         String sobrenome = editSobrenome.getText().toString();
 
-        if (nome == null || nome.trim().isEmpty()){
+        if (nome.trim().isEmpty()){
             Toast.makeText(this, R.string.nome_vazio, Toast.LENGTH_SHORT).show();
             return;
         }
 
-        if (sobrenome == null || sobrenome.trim().isEmpty()){
+        if (sobrenome.trim().isEmpty()){
             Toast.makeText(this, R.string.sobrenome_vazio, Toast.LENGTH_SHORT).show();
             return;
         }
